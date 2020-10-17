@@ -31,12 +31,12 @@ MESSAGE="Docker INSTALLED!" ; success_echo
 
 ## docker as a non-root user
 
-MESSAGE="Configuring Docker as non-root..." ; info_echo
-{
-    groupadd docker
-    usermod -aG docker $USER
-} &> /dev/null
-MESSAGE="Docker configured as non-root!" ; success_echo
+# MESSAGE="Configuring Docker as non-root..." ; info_echo
+# {
+#     groupadd docker
+#     usermod -aG docker $USER
+# } &> /dev/null
+# MESSAGE="Docker configured as non-root!" ; success_echo
 
 ## docker-compose installation
 
