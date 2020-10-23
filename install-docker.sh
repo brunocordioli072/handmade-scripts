@@ -1,3 +1,8 @@
+############################
+#  To execute this script  #
+#  bash install-docker.sh  #
+############################
+
 #!/bin/bash
 
 success_echo() {
