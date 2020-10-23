@@ -1,7 +1,7 @@
-############################
-#  To execute this script  #
-#  bash install-docker.sh  #
-############################
+####################################
+#  ↓ To execute this script use ↓  #
+#      bash install-docker.sh      #
+####################################
 
 #!/bin/bash
 
