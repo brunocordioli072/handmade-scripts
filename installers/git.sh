@@ -1,8 +1,6 @@
 #!/bin/bash
 
-{
-    sudo apt install -y git-all
-} &>/dev/null
+sudo apt install -y git-all
 
 log_read "Git username: "
 read git_username
